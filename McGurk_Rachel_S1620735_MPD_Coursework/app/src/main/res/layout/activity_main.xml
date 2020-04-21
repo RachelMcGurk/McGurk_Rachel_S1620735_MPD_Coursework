@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RACHEL MCGURK S1620735 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/activity_main" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/salutation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Welcome to S1620735's Traffic Data App"/>
+        <Button
+            android:id="@+id/allIncidentsButton"
+            android:layout_width="180dp"
+            android:layout_marginTop="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Check the Status of The Roads"/>
+        <Button
+            android:id="@+id/searchRoadButton"
+            android:layout_width="180dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Search for a Specific Road"/>
+
+        <Button
+            android:id="@+id/planRouteButton"
+            android:layout_width="180dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Plan a Route" />
+    </LinearLayout>
+</ScrollView>
